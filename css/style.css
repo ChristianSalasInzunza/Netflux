@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    z-index: -1;
+}
+
+.video {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container-menu {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    background-color: #000000c0;
+}
+
+.container-icons {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    padding-top: 10px;
+}
+
+.container-controls{
+    display: flex;
+    justify-content: start;
+    height: 30px;
+}
+
+.logo{
+    width: 10vw;
+    margin-right: 1vw;
+    padding-left: 1.5%;
+}
+
+.user-icon{
+    width: 35px;
+    padding-right: 5px;
+}
+
+div a{
+    color: white;
+    margin-right: 1%;
+}
+
+.fas{
+    font-size: 20px;
+    color: white;
+    padding-right: 12px;
+}
+
+.video-description {
+    font-size: 22px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    bottom: 50%;
+    width: 30%;
+    padding: 30px 20px 30px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    z-index: -1;
+}
+
+.color-black {
+    color: black;
+}
+
+.video-play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 10vw;
+    border-radius: 4px;
+    color: black;
+    text-shadow: none;
+    border: none;
+    margin-top: -4%;
+    margin-right: 1vw;
+}
+
+.video-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c0c0c0a9;
+    width: 14vw;
+    border-radius: 4px;
+    color: white;
+    text-shadow: none;
+    border: none;
+    margin-top: -4%;
+}
+
+.texto-controls {
+    font-size: 13px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.36);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.movie-title{
+    width: 60%;
+    margin-bottom: 5px;
+}
+
+.first-line-series {
+    margin-top: -8%;
+}
+
+.container-series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.series {
+    display: flex;
+    width: 250px;
+    height: 170px;
+    color: black;
+    justify-content: space-around;
+}
+
+.series img{
+    margin-right: 5%;
+}
+
+.banner-text{
+    color: white;
+    font-size: 20px;
+    padding-left: 2%;
+    margin-bottom: 1vh;
+}
